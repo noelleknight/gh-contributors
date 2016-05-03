@@ -6,14 +6,36 @@
     list-style: none;
     display: block;
     float: left;
-    margin: 0.3em;
+    margin: 0.5em;
 }
 
 .gh-user {
+
+    text-align: left;
     margin: 0;
     padding: 0.2em;
-    width: 13em;
-    height: 9em;
-    border: 1px solid #666;
+    padding-left: 0.5em;
+    padding-bottom: 5.5em;
+    width: 20em;
+    height: 10em;
+    border-style: outset;
+    border-color: #AEF1E0;
     border-radius: 0.2em;
+    font-family: Garamond;
+    font-size: 1em;
+}
+.gh-user img {
+    float: right;
+    height: 100px;
+    width: 100px;
+
+}
+.gh-user h2 {
+    color: #D13267;
+    font-family: Helvetica;
+    text-align: center;
+}
+h1 {
+
+  font-family: Helvetica;
 }

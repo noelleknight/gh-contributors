@@ -7,17 +7,18 @@
         <meta name='viewport' content='width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no'>
 
         <link rel='stylesheet' href='/css/style.css'>
+
     </head>
     <body>
         <main>
             <header ng-controller='HeaderController as header'>
+              
                 <h1>GH Address Book</h1>
                 <form ng-submit='header.saveToken()'>
                     <input type='text' placeholder='GitHub token' ng-model='header.token'>
                     <input type='submit' value='Save'>
                 </form>
             </header>
-            <p></p>
 
             <section class='page-content' ui-view></section>
         </main>
@@ -29,6 +30,8 @@
         <script src='users/address-book.controller.js'></script>
         <script src='users/github.service.js'></script>
         <script src='app/header.controller.js'></script>
+        <script src='users/gh-contributor.directive.js'></script>
+
 
     </body>
 </html>
